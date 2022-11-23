@@ -987,7 +987,7 @@ footer .input-box .input-div {
   display: flex;
 }
 footer .input-box .input-div p {
-  width: 400px;
+  width: 300px;
 }
 footer .input-box .input-div .input-group .form-control {
   padding: 10px !important;
@@ -1022,6 +1022,11 @@ footer .last-item .item-image img {
   footer .fotter-menu1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 1000px) {
+  footer .input-box {
+    display: block;
   }
 }
 @media only screen and (max-width: 770px) {
